@@ -1,0 +1,76 @@
+/*
+	stylesheet for weather app
+*/
+body {
+	background-image: url("../Weather App/img/Morning\ Sunrise.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	color: white;
+}
+
+/* background color on top of bg image*/
+.hero {
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(15, 68, 19, 0.5);
+    z-index: -5;
+}
+
+/* navbar */
+.navbar {
+	background-color: rgb(8, 141, 59);
+}
+
+.navbar a {
+	color: white;
+	font-size: 25px;
+}
+
+/* weather section */
+.weather {
+	border:2px solid rgb(76, 156, 29);
+	margin-top: 10rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: white;
+}
+
+.weather-head {
+	height: 50%;
+}
+
+#icon-desc {
+	font-size: 5rem;
+	padding-top: 2rem;
+}
+
+.humidity, .wind, .visibility {
+	border-top: 1px solid rgb(76, 156, 29);
+	border-bottom: 1px solid rgb(76, 156, 29);
+	font-size: 1.5rem;
+
+}
+
+#description {
+	font-size: 2rem;
+}
+
+#temperature {
+	font-size: 7rem;
+}
+
+#icon-thermometer {
+	font-size: 5rem;
+}
+
+#humidity, #wind, #visibility {
+	font-size: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
