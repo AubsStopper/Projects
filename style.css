@@ -2,7 +2,7 @@
 	stylesheet for weather app
 */
 body {
-	background-image: url("../Weather App/img/Morning\ Sunrise.jpg");
+	background-image: url("./img/Morning Sunrise.jpg");
 	min-height: 100vh;
 	background-size: cover;
 	background-position: center;
